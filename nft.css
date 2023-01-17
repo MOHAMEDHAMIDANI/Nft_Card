@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.container {
+    width: 380px;
+    height: 66vh;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    box-shadow: black 0px 10px 30px;
+}
+.card {
+    margin: 10% auto ;
+    width: 82%;
+    height: 725px;
+    border-radius: 20px;
+}
+.image-card {
+    width: 100%;
+    height: 40%;
+}
+.image-card img {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+hr {
+    width: 100%;
+    height: 4px;
+    background-color: hsl(215, 32%, 27%);
+    border-radius: 20px;
+    border-color: transparent;
+}
+
+.price {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price .highlight {
+    color: hsl(178, 100%, 50%);
+}
+.price .deadline {
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+.heading h1 {
+    transition: 0.4s;
+    cursor: pointer;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+.par{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+.par p {
+    font-size: 18px;
+    font-weight:400;
+    color: hsl(215, 51%, 70%);
+}
+.owner {
+    margin-top: 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.owner img {
+    cursor: pointer;
+    height: 100%;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid white ;
+}
+.owner h3 {
+    margin-left: 15px;
+    margin-right: 10px;
+    color: hsl(215, 51%, 70%);
+}
+
+.highlight , .deadline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.highlight img , .deadline img {
+    padding: 10px;
+}
+.name {
+    transition: 0.4s;
+    cursor: pointer;
+    margin-left: 5px;
+    color:  hsl(0, 0%, 100%);
+    font-weight: 300;
+    margin: 0px;
+}
+.name:hover , h1:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%) ;
+}
